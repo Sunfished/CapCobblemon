@@ -1,0 +1,221 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.jumbao",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-9, 7, -9], "size": [18, 28, 18], "uv": [0, 0]},
+						{"origin": [-3, 35, -7], "size": [6, 6, 14], "uv": [92, 44]},
+						{"origin": [9, 20, -6], "size": [3, 10, 12], "uv": [98, 115]},
+						{"origin": [-12, 20, -6], "size": [3, 10, 12], "uv": [98, 115], "mirror": true}
+					]
+				},
+				{
+					"name": "ArmL",
+					"parent": "Root",
+					"pivot": [9, 27, 0],
+					"rotation": [0, 0, 40],
+					"cubes": [
+						{"origin": [8, 22, -4], "size": [15, 7, 8], "uv": [80, 79]},
+						{"origin": [23, 21, -5], "size": [7, 9, 10], "uv": [80, 94], "mirror": true}
+					]
+				},
+				{
+					"name": "ArmR",
+					"parent": "Root",
+					"pivot": [-9, 27, 0],
+					"rotation": [0, 0, -40],
+					"cubes": [
+						{"origin": [-23, 22, -4], "size": [15, 7, 8], "uv": [80, 79], "mirror": true},
+						{"origin": [-30, 21, -5], "size": [7, 9, 10], "uv": [80, 94]}
+					]
+				},
+				{
+					"name": "LegFL",
+					"parent": "Root",
+					"pivot": [8, 7, -8],
+					"cubes": [
+						{"origin": [3, 0, -13], "size": [10, 12, 10], "uv": [0, 72], "mirror": true},
+						{"origin": [5, 0, -15], "size": [2, 2, 2], "uv": [66, 62]},
+						{"origin": [9, 0, -15], "size": [2, 2, 2], "uv": [60, 12]}
+					]
+				},
+				{
+					"name": "LegBL",
+					"parent": "Root",
+					"pivot": [8, 7, 8],
+					"cubes": [
+						{"origin": [3, 0, 3], "size": [10, 12, 10], "uv": [0, 72], "mirror": true},
+						{"origin": [9, 0, 13], "size": [2, 2, 2], "uv": [54, 10]},
+						{"origin": [5, 0, 13], "size": [2, 2, 2], "uv": [0, 14]}
+					]
+				},
+				{
+					"name": "LegBR",
+					"parent": "Root",
+					"pivot": [-8, 7, 8],
+					"cubes": [
+						{"origin": [-7, 0, 13], "size": [2, 2, 2], "uv": [66, 58]},
+						{"origin": [-11, 0, 13], "size": [2, 2, 2], "uv": [8, 10]},
+						{"origin": [-13, 0, 3], "size": [10, 12, 10], "uv": [0, 72]}
+					]
+				},
+				{
+					"name": "LegFR",
+					"parent": "Root",
+					"pivot": [-8, 7, -8],
+					"cubes": [
+						{"origin": [-7, 0, -15], "size": [2, 2, 2], "uv": [54, 14]},
+						{"origin": [-11, 0, -15], "size": [2, 2, 2], "uv": [8, 14]},
+						{"origin": [-13, 0, -13], "size": [10, 12, 10], "uv": [0, 72]}
+					]
+				},
+				{
+					"name": "Belt",
+					"parent": "Root",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-11, 12, -11], "size": [22, 4, 22], "uv": [0, 46]},
+						{"origin": [-3, 12, 9], "size": [6, 6, 5], "uv": [0, 46]}
+					]
+				},
+				{
+					"name": "RopeR",
+					"parent": "Belt",
+					"pivot": [8, 14, -11],
+					"rotation": [50, -30, 0],
+					"cubes": [
+						{"origin": [6, 13, -19], "size": [4, 2, 9], "uv": [118, 43]}
+					]
+				},
+				{
+					"name": "RopeMR",
+					"parent": "Belt",
+					"pivot": [3, 14, -11],
+					"rotation": [42.5, -7.5, 0],
+					"cubes": [
+						{"origin": [1, 13, -24], "size": [4, 2, 14], "uv": [0, 110], "mirror": true}
+					]
+				},
+				{
+					"name": "RopeML",
+					"parent": "Belt",
+					"pivot": [-3, 14, -11],
+					"rotation": [42.5, 7.5, 0],
+					"cubes": [
+						{"origin": [-5, 13, -24], "size": [4, 2, 14], "uv": [0, 110]}
+					]
+				},
+				{
+					"name": "RopeL",
+					"parent": "Belt",
+					"pivot": [-8, 14, -11],
+					"rotation": [50, 30, 0],
+					"cubes": [
+						{"origin": [-10, 13, -19], "size": [4, 2, 9], "uv": [118, 43], "mirror": true}
+					]
+				},
+				{
+					"name": "BackBeltL",
+					"parent": "Belt",
+					"pivot": [2, 14, 13],
+					"rotation": [-47.5, 27.5, 0],
+					"cubes": [
+						{"origin": [1, 12, 10], "size": [3, 2, 12], "uv": [114, 82]}
+					]
+				},
+				{
+					"name": "BackBeltR2",
+					"parent": "Belt",
+					"pivot": [-2, 14, 13],
+					"rotation": [-47.5, -27.5, 0],
+					"cubes": [
+						{"origin": [-4, 12, 10], "size": [3, 2, 12], "uv": [114, 82], "mirror": true}
+					]
+				},
+				{
+					"name": "BeltLoopL",
+					"parent": "Belt",
+					"pivot": [1, 16, 12],
+					"rotation": [0, -20, 20],
+					"cubes": [
+						{"origin": [0, 16, 11], "size": [3, 14, 2], "uv": [0, 126]},
+						{"origin": [3, 16, 11], "size": [9, 3, 2], "uv": [54, 0], "mirror": true},
+						{"origin": [3, 27, 11], "size": [9, 3, 2], "uv": [54, 0]},
+						{"origin": [12, 16, 11], "size": [3, 14, 2], "uv": [0, 126], "mirror": true}
+					]
+				},
+				{
+					"name": "BeltLoopR",
+					"parent": "Belt",
+					"pivot": [-1, 16, 12],
+					"rotation": [0, 20, -20],
+					"cubes": [
+						{"origin": [-3, 16, 11], "size": [3, 14, 2], "uv": [0, 126], "mirror": true},
+						{"origin": [-15, 16, 11], "size": [3, 14, 2], "uv": [0, 126]},
+						{"origin": [-12, 16, 11], "size": [9, 3, 2], "uv": [54, 0]},
+						{"origin": [-12, 27, 11], "size": [9, 3, 2], "uv": [54, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "EarL",
+					"parent": "Root",
+					"pivot": [7, 35, 0],
+					"rotation": [0, 0, 45],
+					"cubes": [
+						{"origin": [3, 30, -4], "size": [8, 12, 8], "uv": [112, 0], "mirror": true},
+						{"origin": [2, 42, -5], "size": [10, 6, 10], "uv": [0, 94]}
+					]
+				},
+				{
+					"name": "EarR",
+					"parent": "Root",
+					"pivot": [-7, 35, 0],
+					"rotation": [0, 0, -45],
+					"cubes": [
+						{"origin": [-11, 30, -4], "size": [8, 12, 8], "uv": [112, 0]},
+						{"origin": [-12, 42, -5], "size": [10, 6, 10], "uv": [0, 94], "mirror": true}
+					]
+				},
+				{
+					"name": "Face",
+					"parent": "Root",
+					"pivot": [0, 32, -10],
+					"cubes": [
+						{"origin": [-3.5, 24, -11], "size": [7, 8, 2], "uv": [0, 0]},
+						{"origin": [-1, 31, -12], "size": [2, 2, 2], "uv": [0, 10]}
+					]
+				},
+				{
+					"name": "BowL",
+					"parent": "Face",
+					"pivot": [1, 32, -11],
+					"rotation": [0, 0, 45],
+					"cubes": [
+						{"origin": [0, 32, -11.5], "size": [2, 3, 1], "uv": [0, 72]}
+					]
+				},
+				{
+					"name": "BowL2",
+					"parent": "Face",
+					"pivot": [-1, 32, -11],
+					"rotation": [0, 0, -45],
+					"cubes": [
+						{"origin": [-2, 32, -11.5], "size": [2, 3, 1], "uv": [0, 72], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,80 @@
+{
+	"implemented": true,
+	"name": "XXXNAMELOWERXXX",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.XXXNAMELOWERXXX.desc1",
+		"cobblemon.species.XXXNAMELOWERXXX.desc2"
+	],
+	"height": "XXXHEIGHTXXX",
+	"weight": "XXXWEIGHTXXX",
+	XXXPREVOXXX,
+	XXXFEATURESXXX,
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "XXXSHOULDERMOUNTABLEXXX",
+	XXXSHOULDEREFFECTSXXX,
+	
+	"primaryType": "XXXTYPE1XXX",
+	XXXTYPE2XXX,
+	
+	"baseStats": {
+	"hp": XXXHPXXX,
+	"attack": XXXATKXXX,
+	"defence": XXXDEFXXX,
+	"special_attack": XXXSPAXXX,
+	"special_defence": XXXSPDXXX,
+	"speed": XXXSPEXXX
+	},
+	
+	"catchRate": XXXCATCHXXX,
+	"maleRatio": XXXGENDERXXX,
+	"baseExperienceYield": XXXEXPXXX,
+	"experienceGroup": "XXXGROWTHXXX",
+	"eggCycles": XXXHATCHXXX,
+	"eggGroups": [
+	XXXEGGXXX
+	],
+	"baseFriendship": XXXFRIENDSHIPXXX,
+	"evYield": {
+	XXXEVXXX
+	},
+	
+	"moves": [
+		XXXMOVESXXX
+	],
+	"abilities": [
+		XXXABILITIESXXX
+	],
+	
+	"baseScale": XXXBASESCALEXXX,
+	"hitbox": {
+		"width": XXXMODELWIDTHXXX,
+		"height": XXXMODELHEIGHTXXX,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "XXXDROPATTEMPTS",
+		"entries": [
+			{
+				"item": "XXXDROPITEMXXX",
+				"quantityRange": "XXXDROPRANGEXXX",
+				"percentage": XXXDROPCHANCEXXX
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": XXXHASHEADBONEXXX,
+			"fly": {
+				"canFly": XXXCANFLYXXX
+			}          
+			"swim": {
+				"swimSpeed": XXXSWIMSPEEDXXX,
+				"canSwimInWater": XXXCANSWIMXXX,
+				"canBreatheUnderwater": XXXCANBREATHEUNDERWATERXXX
+			}
+		}
+	}
+}
