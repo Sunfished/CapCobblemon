@@ -1,0 +1,104 @@
+{
+	"implemented": true,
+	"name": "necturine",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.necturine.desc1",
+		"cobblemon.species.necturine.desc2"
+	],
+	"height": "3",
+	"weight": "18",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "grass",
+	"secondaryType": "ghost",
+	
+	"baseStats": {
+	"hp": 49,
+	"attack": 55,
+	"defence": 60,
+	"special_attack": 50,
+	"special_defence": 75,
+	"speed": 51
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"grass",
+		"field"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"egg:curse",
+"egg:ingrain",
+"1:vinewhip",
+"4:shadowsneak",
+"8:leechseed",
+"12:magicalleaf",
+"16:hex",
+"20:toxicspikes",
+"24:seedbomb",
+"28:nightshade",
+"32:grassyterrain",
+"40:painsplit",
+"44:powerwhip",
+"tm:darkpulse",
+"tm:energyball",
+"tm:grassknot",
+"tm:leafstorm",
+"tm:psychic",
+"tm:rest",
+"tm:sleeptalk",
+"tm:solarbeam",
+"tm:substitute",
+"tm:terablast"
+	],
+	"abilities": [
+		"anticipation",
+"h:telepathy"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "0",
+		"entries": [
+			{
+				"item": "minecraft:dirt",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

@@ -1,0 +1,123 @@
+{
+	"implemented": true,
+	"name": "justyke",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.justyke.desc1",
+		"cobblemon.species.justyke.desc2"
+	],
+	"height": "4",
+	"weight": "365",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "steel",
+	"secondaryType": "ground",
+	
+	"baseStats": {
+	"hp": 72,
+	"attack": 70,
+	"defence": 56,
+	"special_attack": 83,
+	"special_defence": 68,
+	"speed": 30
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"mineral"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"1:magnetrise",
+"1:mudsport",
+"1:pound",
+"4:mudslap",
+"8:imprison",
+"12:gyroball",
+"13:mudshot",
+"16:guardsplit",
+"16:powersplit",
+"20:quash",
+"24:gravity",
+"24:mindreader",
+"26:mirrorshot",
+"28:flashcannon",
+"33:aurasphere",
+"36:memento",
+"40:healingwish",
+"44:destinybond",
+"48:earthpower",
+"52:earthquake",
+"52:painsplit",
+"tm:bodyslam",
+"tm:bulldoze",
+"tm:drillrun",
+"tm:endure",
+"tm:facade",
+"tm:heavyslam",
+"tm:helpinghand",
+"tm:icespinner",
+"tm:irondefense",
+"tm:ironhead",
+"tm:protect",
+"tm:rest",
+"tm:rockslide",
+"tm:rocktomb",
+"tm:sandstorm",
+"tm:sleeptalk",
+"tm:smartstrike",
+"tm:steelbeam",
+"tm:substitute",
+"tm:terablast",
+"tm:trickroom"
+	],
+	"abilities": [
+		"levitate",
+"bulletproof",
+"h:justified"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.4,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "1",
+		"entries": [
+			{
+				"item": "minecraft:clay",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

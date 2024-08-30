@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:pajantom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:pajantom",
+      "model": "cobblemon:pajantom.geo",
+      "texture": "cobblemon:textures/pokemon/pajantom/pajantom.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/pajantom/pajantom_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:mumbao",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:mumbao",
+      "model": "cobblemon:mumbao.geo",
+      "texture": "cobblemon:textures/pokemon/mumbao/mumbao.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/mumbao/mumbao_shiny.png"
+    }
+  ]
+}

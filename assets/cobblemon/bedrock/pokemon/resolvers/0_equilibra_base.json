@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:equilibra",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:equilibra",
+      "model": "cobblemon:equilibra.geo",
+      "texture": "cobblemon:textures/pokemon/equilibra/equilibra.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/equilibra/equilibra_shiny.png"
+    }
+  ]
+}

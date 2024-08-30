@@ -1,0 +1,159 @@
+{
+	"implemented": true,
+	"name": "revenankh",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.revenankh.desc1",
+		"cobblemon.species.revenankh.desc2"
+	],
+	"height": "18",
+	"weight": "440",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "ghost",
+	"secondaryType": "fighting",
+	
+	"baseStats": {
+	"hp": 90,
+	"attack": 105,
+	"defence": 90,
+	"special_attack": 65,
+	"special_defence": 110,
+	"speed": 65
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"amorphous",
+		"human_like"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"egg:ancientpower",
+"egg:counter",
+"egg:destinybond",
+"egg:machpunch",
+"egg:memento",
+"egg:quickguard",
+"egg:shadowsneak",
+"egg:suckerpunch",
+"1:leer",
+"1:wrap",
+"4:armthrust",
+"8:detect",
+"12:sandtomb",
+"16:meanlook",
+"18:rocktomb",
+"20:shadowpunch",
+"24:glare",
+"28:forcepalm",
+"32:hex",
+"33:punishment",
+"36:curse",
+"40:knockoff",
+"44:moonlight",
+"48:hammerarm",
+"52:grudge",
+"52:powerwhip",
+"56:focuspunch",
+"tm:bodyslam",
+"tm:brickbreak",
+"tm:bulkup",
+"tm:closecombat",
+"tm:confuseray",
+"tm:darkpulse",
+"tm:dig",
+"tm:drainpunch",
+"tm:earthquake",
+"tm:endure",
+"tm:facade",
+"tm:fling",
+"tm:focusblast",
+"tm:foulplay",
+"tm:gigaimpact",
+"tm:helpinghand",
+"tm:hyperbeam",
+"tm:icepunch",
+"tm:lashout",
+"tm:metronome",
+"tm:mudslap",
+"tm:nastyplot",
+"tm:nightshade",
+"tm:phantomforce",
+"tm:poisonjab",
+"tm:poltergeist",
+"tm:protect",
+"tm:raindance",
+"tm:rest",
+"tm:reversal",
+"tm:rockslide",
+"tm:sandstorm",
+"tm:scaryface",
+"tm:shadowball",
+"tm:shadowclaw",
+"tm:sleeptalk",
+"tm:smackdown",
+"tm:spite",
+"tm:substitute",
+"tm:sunnyday",
+"tm:takedown",
+"tm:taunt",
+"tm:terablast",
+"tm:thief",
+"tm:thunderpunch",
+"tm:trick",
+"tm:trickroom",
+"tm:upperhand",
+"tm:vacuumwave",
+"tm:willowisp"
+	],
+	"abilities": [
+		"shedskin",
+"airlock",
+"h:triage"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "0",
+		"entries": [
+			{
+				"item": "minecraft:paper",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

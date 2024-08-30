@@ -1,0 +1,41 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"pluffle.animation.ground_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["math.sin(query.anim_time * 60) * 1.5", 0, "math.sin(query.anim_time * 120) * 2.5"],
+					"scale": [1, "math.sin(query.anim_time * 240) * 0.03 + 0.97", 1]
+				},
+				"LegFR": {
+					"rotation": ["math.sin(query.anim_time * 60) * -1.5", 0, "math.sin(query.anim_time * 120) * -2.5"]
+				},
+				"LegFL": {
+					"rotation": ["math.sin(query.anim_time * 60) * -1.5", 0, "math.sin(query.anim_time * 120) * -2.5"]
+				},
+				"LegBR": {
+					"rotation": ["math.sin(query.anim_time * 60) * -1.5", 0, "math.sin(query.anim_time * 120) * -2.5"]
+				},
+				"LegBL": {
+					"rotation": ["math.sin(query.anim_time * 60) * -1.5", 0, "math.sin(query.anim_time * 120) * -2.5"]
+				},
+				"EarLBone": {
+					"rotation": ["math.sin(query.anim_time * 60 - 60) * 3", 0, "math.sin(query.anim_time * 120-60) * 5"]
+				},
+				"EarRBone": {
+					"rotation": ["math.sin(query.anim_time * 60 - 60) * 3", 0, "math.sin(query.anim_time * 120-60) * 5"]
+				},
+				"tongue": {
+					"rotation": ["math.sin(query.anim_time * 60 - 60) * 3", 0, 0]
+				}
+			}
+		},
+		"pluffle.animation.faint": {
+			"loop": true
+		},
+		"pluffle.animation.ground_walk": {
+			"loop": true
+		}
+	}
+}

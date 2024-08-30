@@ -1,0 +1,158 @@
+{
+	"implemented": true,
+	"name": "arghonaut",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.arghonaut.desc1",
+		"cobblemon.species.arghonaut.desc2"
+	],
+	"height": "17",
+	"weight": "1510",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "water",
+	"secondaryType": "fighting",
+	
+	"baseStats": {
+	"hp": 105,
+	"attack": 110,
+	"defence": 95,
+	"special_attack": 70,
+	"special_defence": 100,
+	"speed": 75
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"water_1",
+		"water_3"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"1:armthrust",
+"1:brine",
+"1:bubble",
+"1:circlethrow",
+"1:thief",
+"1:vacuumwave",
+"1:watergun",
+"1:wrap",
+"12:smokescreen",
+"16:aquajet",
+"16:machpunch",
+"20:yawn",
+"24:knockoff",
+"28:aquacutter",
+"28:revenge",
+"30:chipaway",
+"32:taunt",
+"36:headbutt",
+"42:liquidation",
+"42:scald",
+"48:submission",
+"48:superpower",
+"54:wideguard",
+"60:focuspunch",
+"67:punishment",
+"tm:blizzard",
+"tm:bodypress",
+"tm:bodyslam",
+"tm:brickbreak",
+"tm:bulkup",
+"tm:bulldoze",
+"tm:chillingwater",
+"tm:closecombat",
+"tm:coaching",
+"tm:drainpunch",
+"tm:earthquake",
+"tm:endure",
+"tm:facade",
+"tm:falseswipe",
+"tm:fling",
+"tm:focusblast",
+"tm:foulplay",
+"tm:gigaimpact",
+"tm:gunkshot",
+"tm:hardpress",
+"tm:hydropump",
+"tm:hyperbeam",
+"tm:icebeam",
+"tm:icepunch",
+"tm:icywind",
+"tm:lowkick",
+"tm:lowsweep",
+"tm:muddywater",
+"tm:mudslap",
+"tm:poisonjab",
+"tm:protect",
+"tm:raindance",
+"tm:rest",
+"tm:roar",
+"tm:rockslide",
+"tm:rocktomb",
+"tm:scaryface",
+"tm:skittersmack",
+"tm:sleeptalk",
+"tm:sludgebomb",
+"tm:snowscape",
+"tm:spikes",
+"tm:stoneedge",
+"tm:substitute",
+"tm:surf",
+"tm:takedown",
+"tm:terablast",
+"tm:throatchop",
+"tm:thunderpunch",
+"tm:waterfall",
+"tm:waterpulse",
+"tm:whirlpool"
+	],
+	"abilities": [
+		"unaware",
+"h:technician"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "1",
+		"entries": [
+			{
+				"item": "minecraft:gold_ingot",
+				"quantityRange": "10-12",
+				"percentage": 5
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

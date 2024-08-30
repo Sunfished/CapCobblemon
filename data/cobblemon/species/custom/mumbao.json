@@ -1,0 +1,133 @@
+{
+	"implemented": true,
+	"name": "mumbao",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.mumbao.desc1",
+		"cobblemon.species.mumbao.desc2"
+	],
+	"height": "10",
+	"weight": "2500",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "grass",
+	"secondaryType": "fairy",
+	
+	"baseStats": {
+	"hp": 55,
+	"attack": 30,
+	"defence": 64,
+	"special_attack": 87,
+	"special_defence": 73,
+	"speed": 66
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"grass"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"egg:explosion",
+"egg:healingwish",
+"egg:superpower",
+"egg:woodhammer",
+"egg:worryseed",
+"1:flowershield",
+"1:harden",
+"1:tackle",
+"5:leafage",
+"8:rototiller",
+"10:ingrain",
+"15:helpinghand",
+"17:luckychant",
+"20:focusenergy",
+"25:magicalleaf",
+"30:wish",
+"31:naturalgift",
+"35:psychup",
+"40:gigadrain",
+"45:bodyslam",
+"50:sunnyday",
+"50:synthesis",
+"55:energyball",
+"60:moonblast",
+"65:leafstorm",
+"tm:bulletseed",
+"tm:dazzlinggleam",
+"tm:drainingkiss",
+"tm:endure",
+"tm:facade",
+"tm:focusblast",
+"tm:grassknot",
+"tm:grassyglide",
+"tm:grassyterrain",
+"tm:gravity",
+"tm:gyroball",
+"tm:heavyslam",
+"tm:lightscreen",
+"tm:mistyexplosion",
+"tm:mistyterrain",
+"tm:playrough",
+"tm:protect",
+"tm:rest",
+"tm:sandstorm",
+"tm:seedbomb",
+"tm:shadowball",
+"tm:sleeptalk",
+"tm:solarbeam",
+"tm:substitute",
+"tm:takedown",
+"tm:terablast",
+"tm:trailblaze"
+	],
+	"abilities": [
+		"solarpower",
+"trace",
+"h:overcoat"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "0",
+		"entries": [
+			{
+				"item": "minecraft:dirt",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

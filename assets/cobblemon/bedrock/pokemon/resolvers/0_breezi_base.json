@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:breezi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:breezi",
+      "model": "cobblemon:breezi.geo",
+      "texture": "cobblemon:textures/pokemon/breezi/breezi.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/breezi/breezi_shiny.png"
+    }
+  ]
+}

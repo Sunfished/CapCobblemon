@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:kerfluffle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:kerfluffle",
+      "model": "cobblemon:kerfluffle.geo",
+      "texture": "cobblemon:textures/pokemon/kerfluffle/kerfluffle.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/kerfluffle/kerfluffle_shiny.png"
+    }
+  ]
+}

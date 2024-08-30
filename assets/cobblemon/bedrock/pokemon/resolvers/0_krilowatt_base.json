@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:krilowatt",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:krilowatt",
+      "model": "cobblemon:krilowatt.geo",
+      "texture": "cobblemon:textures/pokemon/krilowatt/krilowatt.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/krilowatt/krilowatt_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+	"implemented": true,
+	"name": "smogecko",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.smogecko.desc1",
+		"cobblemon.species.smogecko.desc2"
+	],
+	"height": "5",
+	"weight": "85",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "fire",
+	
+	
+	"baseStats": {
+	"hp": 48,
+	"attack": 66,
+	"defence": 43,
+	"special_attack": 58,
+	"special_defence": 48,
+	"speed": 56
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"field",
+		"monster"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"1:tackle"
+	],
+	"abilities": [
+		"blaze",
+"h:technician"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "0",
+		"entries": [
+			{
+				"item": "minecraft:dirt",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

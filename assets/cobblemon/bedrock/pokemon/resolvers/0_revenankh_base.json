@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:revenankh",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:revenankh",
+      "model": "cobblemon:revenankh.geo",
+      "texture": "cobblemon:textures/pokemon/revenankh/revenankh.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/revenankh/revenankh_shiny.png"
+    }
+  ]
+}

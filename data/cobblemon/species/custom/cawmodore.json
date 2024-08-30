@@ -1,0 +1,82 @@
+{
+	"implemented": true,
+	"name": "cawmodore",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.cawmodore.desc1",
+		"cobblemon.species.cawmodore.desc2"
+	],
+	"height": "17",
+	"weight": "370",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "steel",
+	"secondaryType": "flying",
+	
+	"baseStats": {
+	"hp": 50,
+	"attack": 92,
+	"defence": 130,
+	"special_attack": 65,
+	"special_defence": 75,
+	"speed": 118
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"flying"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"1:tackle"
+	],
+	"abilities": [
+		"intimidate",
+"voltabsorb",
+"h:bigpecks"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "0",
+		"entries": [
+			{
+				"item": "minecraft:dirt",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": true
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

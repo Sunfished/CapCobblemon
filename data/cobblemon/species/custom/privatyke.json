@@ -1,0 +1,145 @@
+{
+	"implemented": true,
+	"name": "privatyke",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.privatyke.desc1",
+		"cobblemon.species.privatyke.desc2"
+	],
+	"height": "10",
+	"weight": "350",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "water",
+	"secondaryType": "fighting",
+	
+	"baseStats": {
+	"hp": 65,
+	"attack": 75,
+	"defence": 65,
+	"special_attack": 40,
+	"special_defence": 60,
+	"speed": 45
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"water_1",
+		"water_3"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"egg:crosschop",
+"egg:recover",
+"egg:torment",
+"1:bubble",
+"1:watergun",
+"1:wrap",
+"4:armthrust",
+"8:thief",
+"12:smokescreen",
+"16:aquajet",
+"16:machpunch",
+"20:yawn",
+"24:knockoff",
+"28:aquacutter",
+"28:revenge",
+"30:chipaway",
+"32:taunt",
+"36:headbutt",
+"40:liquidation",
+"40:scald",
+"44:submission",
+"44:superpower",
+"48:wideguard",
+"52:focuspunch",
+"55:punishment",
+"tm:blizzard",
+"tm:bodyslam",
+"tm:brickbreak",
+"tm:bulkup",
+"tm:bulldoze",
+"tm:chillingwater",
+"tm:closecombat",
+"tm:drainpunch",
+"tm:earthquake",
+"tm:endure",
+"tm:facade",
+"tm:falseswipe",
+"tm:fling",
+"tm:foulplay",
+"tm:icebeam",
+"tm:icepunch",
+"tm:icywind",
+"tm:lowkick",
+"tm:lowsweep",
+"tm:mudslap",
+"tm:poisonjab",
+"tm:protect",
+"tm:raindance",
+"tm:rest",
+"tm:roar",
+"tm:rockslide",
+"tm:rocktomb",
+"tm:scaryface",
+"tm:sleeptalk",
+"tm:sludgebomb",
+"tm:snowscape",
+"tm:spikes",
+"tm:substitute",
+"tm:surf",
+"tm:takedown",
+"tm:terablast",
+"tm:thunderpunch",
+"tm:waterfall",
+"tm:waterpulse"
+	],
+	"abilities": [
+		"unaware",
+"h:technician"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "0",
+		"entries": [
+			{
+				"item": "minecraft:dirt",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

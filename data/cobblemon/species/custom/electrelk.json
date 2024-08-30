@@ -1,0 +1,81 @@
+{
+	"implemented": true,
+	"name": "electrelk",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.electrelk.desc1",
+		"cobblemon.species.electrelk.desc2"
+	],
+	"height": "14",
+	"weight": "415",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "grass",
+	"secondaryType": "electric",
+	
+	"baseStats": {
+	"hp": 59,
+	"attack": 81,
+	"defence": 67,
+	"special_attack": 57,
+	"special_defence": 55,
+	"speed": 101
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"field"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"1:tackle"
+	],
+	"abilities": [
+		"overgrow",
+"h:galvanize"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "1",
+		"entries": [
+			{
+				"item": "minecraft:stick",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

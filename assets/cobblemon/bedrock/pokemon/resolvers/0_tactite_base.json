@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:tactite",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:tactite",
+      "model": "cobblemon:tactite.geo",
+      "texture": "cobblemon:textures/pokemon/tactite/tactite.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/tactite/tactite_shiny.png"
+    }
+  ]
+}

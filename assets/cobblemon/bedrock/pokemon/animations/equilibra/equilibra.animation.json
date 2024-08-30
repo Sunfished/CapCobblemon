@@ -1,0 +1,48 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.equilibra.ground_idle": {
+			"loop": true,
+			"bones": {
+				"ring": {
+					"rotation": ["math.sin(query.anim_time * 120 - 60) * 2", 0, "math.sin(query.anim_time * 60 - 60) * 2"]
+				},
+				"dangleleft": {
+					"rotation": ["math.sin(query.anim_time * 120 - 60) * -2", 0, "math.sin(query.anim_time * 60 - 60) * -6"]
+				},
+				"backarc": {
+					"rotation": ["math.sin(query.anim_time * 120 - 60) * 2", 0, "math.sin(query.anim_time * 60 - 60) * 6"]
+				},
+				"body": {
+					"rotation": ["math.sin(query.anim_time * 120) * 2", 0, "math.sin(query.anim_time * 60) * 6"]
+				},
+				"dangleright": {
+					"rotation": ["math.sin(query.anim_time * 120 - 60) * -2", 0, "math.sin(query.anim_time * 60 - 60) * -6"]
+				}
+			}
+		},
+		"animation.equilibra.ground_walk": {
+			"loop": true,
+			"bones": {
+				"ring": {
+					"rotation": ["math.sin(query.anim_time * 120 - 60) * 2", 0, "math.sin(query.anim_time * 60 - 60) * 2"]
+				},
+				"dangleleft": {
+					"rotation": ["math.sin(query.anim_time * 120 - 60) * -2", 0, "math.sin(query.anim_time * 60 - 60) * -6"]
+				},
+				"backarc": {
+					"rotation": ["math.sin(query.anim_time * 120 - 60) * 2", 0, "math.sin(query.anim_time * 60 - 60) * 6"]
+				},
+				"body": {
+					"rotation": ["math.sin(query.anim_time * 120) * 2", 0, "math.sin(query.anim_time * 60) * 6"]
+				},
+				"dangleright": {
+					"rotation": ["math.sin(query.anim_time * 120 - 60) * -2", 0, "math.sin(query.anim_time * 60 - 60) * -6"]
+				}
+			}
+		},
+		"animation.equilibra.faint": {
+			"loop": true
+		}
+	}
+}

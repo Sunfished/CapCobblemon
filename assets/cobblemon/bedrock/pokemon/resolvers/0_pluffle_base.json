@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:pluffle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:pluffle",
+      "model": "cobblemon:pluffle.geo",
+      "texture": "cobblemon:textures/pokemon/pluffle/pluffle.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/pluffle/pluffle_shiny.png"
+    }
+  ]
+}

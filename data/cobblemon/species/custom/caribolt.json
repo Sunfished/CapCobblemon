@@ -1,0 +1,81 @@
+{
+	"implemented": true,
+	"name": "caribolt",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.caribolt.desc1",
+		"cobblemon.species.caribolt.desc2"
+	],
+	"height": "25",
+	"weight": "1400",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "grass",
+	"secondaryType": "electric",
+	
+	"baseStats": {
+	"hp": 84,
+	"attack": 106,
+	"defence": 82,
+	"special_attack": 77,
+	"special_defence": 80,
+	"speed": 106
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"field"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"1:tackle"
+	],
+	"abilities": [
+		"overgrow",
+"h:galvanize"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "1",
+		"entries": [
+			{
+				"item": "minecraft:copper_ingot",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

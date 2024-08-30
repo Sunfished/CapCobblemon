@@ -1,0 +1,139 @@
+{
+	"implemented": true,
+	"name": "nohface",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.nohface.desc1",
+		"cobblemon.species.nohface.desc2"
+	],
+	"height": "59",
+	"weight": "5",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "ghost",
+	
+	
+	"baseStats": {
+	"hp": 50,
+	"attack": 73,
+	"defence": 50,
+	"special_attack": 30,
+	"special_defence": 50,
+	"speed": 80
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"field"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"egg:curse",
+"egg:defog",
+"egg:featherdance",
+"egg:flail",
+"egg:irontail",
+"egg:metalsound",
+"egg:meteormash",
+"egg:painsplit",
+"egg:suckerpunch",
+"egg:wish",
+"egg:yawn",
+"1:scratch",
+"1:tailwhip",
+"4:lick",
+"8:fakeout",
+"10:odorsleuth",
+"12:spite",
+"14:feintattack",
+"16:shadowsneak",
+"20:copycat",
+"24:torment",
+"28:honeclaws",
+"32:shadowclaw",
+"36:knockoff",
+"36:revenge",
+"40:trick",
+"44:memento",
+"48:perishsong",
+"tm:closecombat",
+"tm:confuseray",
+"tm:darkpulse",
+"tm:dig",
+"tm:facade",
+"tm:falseswipe",
+"tm:fling",
+"tm:foulplay",
+"tm:hex",
+"tm:icepunch",
+"tm:icywind",
+"tm:metronome",
+"tm:nightshade",
+"tm:playrough",
+"tm:poltergeist",
+"tm:protect",
+"tm:raindance",
+"tm:rest",
+"tm:roar",
+"tm:shadowball",
+"tm:sleeptalk",
+"tm:substitute",
+"tm:sunnyday",
+"tm:taunt",
+"tm:terablast",
+"tm:thief",
+"tm:thunderpunch",
+"tm:trickroom",
+"tm:uturn",
+"tm:willowisp"
+	],
+	"abilities": [
+		"frisk",
+"limber",
+"h:unnerve"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "0",
+		"entries": [
+			{
+				"item": "minecraft:dirt",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

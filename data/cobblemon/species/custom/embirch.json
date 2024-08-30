@@ -1,0 +1,144 @@
+{
+	"implemented": true,
+	"name": "embirch",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.embirch.desc1",
+		"cobblemon.species.embirch.desc2"
+	],
+	"height": "6",
+	"weight": "150",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "fire",
+	"secondaryType": "grass",
+	
+	"baseStats": {
+	"hp": 60,
+	"attack": 40,
+	"defence": 55,
+	"special_attack": 65,
+	"special_defence": 40,
+	"speed": 60
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"monster",
+		"dragon"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+			hp: 1,
+		attack: 1,
+		defence: 1,
+		special_attack: 1,
+		special_defence: 1,
+		speed: 1
+	},
+	
+	"moves": [
+		"egg:block",
+"egg:counter",
+"egg:dragonbreath",
+"egg:worryseed",
+"1:bulletseed",
+"1:sweetscent",
+"4:ember",
+"8:leechseed",
+"12:growth",
+"16:flamewheel",
+"20:gigadrain",
+"23:sandtomb",
+"25:firespin",
+"25:synthesis",
+"28:seedbomb",
+"32:lavaplume",
+"36:petaldance",
+"37:amnesia",
+"37:irondefense",
+"40:doubleedge",
+"44:heatcrash",
+"tm:bulldoze",
+"tm:dragondance",
+"tm:earthpower",
+"tm:endure",
+"tm:energyball",
+"tm:facade",
+"tm:fireblast",
+"tm:flamecharge",
+"tm:flamethrower",
+"tm:flareblitz",
+"tm:grassknot",
+"tm:grassyglide",
+"tm:grassyterrain",
+"tm:heatwave",
+"tm:ironhead",
+"tm:lightscreen",
+"tm:magicalleaf",
+"tm:mudslap",
+"tm:overheat",
+"tm:protect",
+"tm:rest",
+"tm:rockslide",
+"tm:rocktomb",
+"tm:sleeptalk",
+"tm:solarbeam",
+"tm:stealthrock",
+"tm:substitute",
+"tm:sunnyday",
+"tm:swift",
+"tm:swordsdance",
+"tm:takedown",
+"tm:terablast",
+"tm:trailblaze",
+"tm:wildcharge",
+"tm:willowisp",
+"tm:zenheadbutt"
+	],
+	"abilities": [
+		"reckless",
+"leafguard",
+"h:chlorophyll"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "0",
+		"entries": [
+			{
+				"item": "minecraft:dirt",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

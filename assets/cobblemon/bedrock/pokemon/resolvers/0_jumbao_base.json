@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:jumbao",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:jumbao",
+      "model": "cobblemon:jumbao.geo",
+      "texture": "cobblemon:textures/pokemon/jumbao/jumbao.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/jumbao/jumbao_shiny.png"
+    }
+  ]
+}

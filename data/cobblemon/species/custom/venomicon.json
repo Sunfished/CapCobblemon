@@ -1,0 +1,137 @@
+{
+	"implemented": true,
+	"name": "venomicon",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.venomicon.desc1",
+		"cobblemon.species.venomicon.desc2"
+	],
+	"height": "8",
+	"weight": "124",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "poison",
+	"secondaryType": "flying",
+	
+	"baseStats": {
+	"hp": 85,
+	"attack": 102,
+	"defence": 85,
+	"special_attack": 63,
+	"special_defence": 85,
+	"speed": 120
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"amorphous"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"egg:clearsmog",
+"egg:meanlook",
+"egg:memento",
+"1:peck",
+"1:poisonsting",
+"5:withdraw",
+"10:confuseray",
+"15:aircutter",
+"20:venoshock",
+"25:hex",
+"30:toxic",
+"35:drillpeck",
+"40:poisonjab",
+"45:roost",
+"50:coil",
+"55:hurricane",
+"tm:acidspray",
+"tm:airslash",
+"tm:bodypress",
+"tm:bodyslam",
+"tm:bravebird",
+"tm:darkpulse",
+"tm:dualwingbeat",
+"tm:endure",
+"tm:facade",
+"tm:fly",
+"tm:foulplay",
+"tm:gigaimpact",
+"tm:gunkshot",
+"tm:hyperbeam",
+"tm:imprison",
+"tm:irondefense",
+"tm:knockoff",
+"tm:lashout",
+"tm:magicalleaf",
+"tm:nastyplot",
+"tm:phantomforce",
+"tm:protect",
+"tm:psychic",
+"tm:psyshock",
+"tm:rest",
+"tm:scaryface",
+"tm:shadowball",
+"tm:skillswap",
+"tm:sleeptalk",
+"tm:sludgebomb",
+"tm:sludgewave",
+"tm:stealthrock",
+"tm:substitute",
+"tm:swift",
+"tm:tailwind",
+"tm:takedown",
+"tm:temperflare",
+"tm:terablast",
+"tm:thunderwave",
+"tm:toxicspikes",
+"tm:trick",
+"tm:uturn"
+	],
+	"abilities": [
+		"tintedlens"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "0",
+		"entries": [
+			{
+				"item": "minecraft:dirt",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": true
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

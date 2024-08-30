@@ -1,0 +1,50 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.protowatt.ground_idle": {
+			"loop": true,
+			"bones": {
+				"antennal": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -6", 0, "math.cos(query.anim_time * 100 + 60) * -4"]
+				},
+				"antennar": {
+					"rotation": ["math.sin(query.anim_time * 120 + 100) * -6", 0, "math.cos(query.anim_time * 100 + 100) * -4"]
+				},
+				"tail": {
+					"rotation": ["math.sin(query.anim_time * 120) * 6", 0, "math.cos(query.anim_time * 100) * 4"]
+				},
+				"bone2": {
+					"rotation": ["math.sin(query.anim_time * 120) * 6", 0, "math.cos(query.anim_time * 100) * 4"]
+				},
+				"body": {
+					"rotation": ["math.sin(query.anim_time * 120) * 6", 0, "math.cos(query.anim_time * 100) * 4"],
+					"position": [0, "math.sin(query.anim_time * 90) * 1", 0]
+				}
+			}
+		},
+		"animation.protowatt.ground_walk": {
+			"loop": true,
+			"bones": {
+				"antennal": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -6", 0, "math.cos(query.anim_time * 100 + 60) * -4"]
+				},
+				"antennar": {
+					"rotation": ["math.sin(query.anim_time * 120 + 100) * -6", 0, "math.cos(query.anim_time * 100 + 100) * -4"]
+				},
+				"tail": {
+					"rotation": ["math.sin(query.anim_time * 120) * 6", 0, "math.cos(query.anim_time * 100) * 4"]
+				},
+				"bone2": {
+					"rotation": ["math.sin(query.anim_time * 120) * 6", 0, "math.cos(query.anim_time * 100) * 4"]
+				},
+				"body": {
+					"rotation": ["math.sin(query.anim_time * 120) * 6", 0, "math.cos(query.anim_time * 100) * 4"],
+					"position": [0, "math.sin(query.anim_time * 90) * 1", 0]
+				}
+			}
+		},
+		"animation.protowatt.faint": {
+			"loop": true
+		}
+	}
+}

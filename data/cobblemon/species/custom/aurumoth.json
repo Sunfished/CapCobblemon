@@ -1,0 +1,82 @@
+{
+	"implemented": true,
+	"name": "aurumoth",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.aurumoth.desc1",
+		"cobblemon.species.aurumoth.desc2"
+	],
+	"height": "21",
+	"weight": "1930",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "bug",
+	"secondaryType": "psychic",
+	
+	"baseStats": {
+	"hp": 110,
+	"attack": 120,
+	"defence": 99,
+	"special_attack": 117,
+	"special_defence": 60,
+	"speed": 94
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"bug"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"1:tackle"
+	],
+	"abilities": [
+		"weakarmor",
+"noguard",
+"h:lightmetal"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "0",
+		"entries": [
+			{
+				"item": "minecraft:dirt",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": true
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.jumbao.ground_idle": {
+			"loop": true
+		},
+		"animation.jumbao.ground_walk": {
+			"loop": true
+		},
+		"animation.jumbao.faint": {
+			"loop": true
+		}
+	}
+}

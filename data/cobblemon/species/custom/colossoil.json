@@ -1,0 +1,145 @@
+{
+	"implemented": true,
+	"name": "colossoil",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.colossoil.desc1",
+		"cobblemon.species.colossoil.desc2"
+	],
+	"height": "26",
+	"weight": "6836",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "ground",
+	"secondaryType": "dark",
+	
+	"baseStats": {
+	"hp": 133,
+	"attack": 122,
+	"defence": 72,
+	"special_attack": 71,
+	"special_defence": 72,
+	"speed": 95
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"water_2",
+		"field"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"1:brutalswing",
+"1:drillrun",
+"1:furyattack",
+"1:highhorsepower",
+"1:hornattack",
+"1:leer",
+"1:mudslap",
+"1:peck",
+"1:sandtomb",
+"15:rapidspin",
+"20:bite",
+"25:knockoff",
+"30:strength",
+"32:magnitude",
+"35:bodyslam",
+"37:pursuit",
+"42:spitup",
+"42:stockpile",
+"42:swallow",
+"48:bounce",
+"49:crunch",
+"56:megahorn",
+"63:headlongrush",
+"70:horndrill",
+"tm:bodypress",
+"tm:brickbreak",
+"tm:bulldoze",
+"tm:darkpulse",
+"tm:dig",
+"tm:earthpower",
+"tm:earthquake",
+"tm:encore",
+"tm:endure",
+"tm:facade",
+"tm:firefang",
+"tm:foulplay",
+"tm:gigaimpact",
+"tm:hyperbeam",
+"tm:icespinner",
+"tm:lashout",
+"tm:mudshot",
+"tm:protect",
+"tm:raindance",
+"tm:rest",
+"tm:roar",
+"tm:rockslide",
+"tm:rocktomb",
+"tm:sandstorm",
+"tm:scorchingsands",
+"tm:sleeptalk",
+"tm:smartstrike",
+"tm:snarl",
+"tm:stealthrock",
+"tm:stoneedge",
+"tm:substitute",
+"tm:sunnyday",
+"tm:supercellslam",
+"tm:takedown",
+"tm:taunt",
+"tm:temperflare",
+"tm:terablast",
+"tm:thunderfang",
+"tm:uturn"
+	],
+	"abilities": [
+		"rebound",
+"guts",
+"h:unnerve"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "0",
+		"entries": [
+			{
+				"item": "minecraft:dirt",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

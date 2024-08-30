@@ -1,0 +1,131 @@
+{
+	"implemented": true,
+	"name": "scratchet",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.scratchet.desc1",
+		"cobblemon.species.scratchet.desc2"
+	],
+	"height": "5",
+	"weight": "200",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "normal",
+	"secondaryType": "fighting",
+	
+	"baseStats": {
+	"hp": 55,
+	"attack": 85,
+	"defence": 80,
+	"special_attack": 20,
+	"special_defence": 70,
+	"speed": 40
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"field",
+		"flying"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"egg:memento",
+"egg:quash",
+"egg:rapidspin",
+"egg:yawn",
+"1:harden",
+"1:scratch",
+"3:poweruppunch",
+"6:focusenergy",
+"9:furyswipes",
+"12:rocksmash",
+"15:taunt",
+"18:roar",
+"21:retaliate",
+"24:rest",
+"27:workup",
+"30:brickbreak",
+"30:submission",
+"33:hypervoice",
+"36:bulkup",
+"39:superpower",
+"tm:aerialace",
+"tm:batonpass",
+"tm:bodypress",
+"tm:bodyslam",
+"tm:bulldoze",
+"tm:closecombat",
+"tm:confuseray",
+"tm:endure",
+"tm:facade",
+"tm:falseswipe",
+"tm:fling",
+"tm:focusblast",
+"tm:grassknot",
+"tm:haze",
+"tm:helpinghand",
+"tm:mudslap",
+"tm:protect",
+"tm:raindance",
+"tm:reversal",
+"tm:rockslide",
+"tm:rocktomb",
+"tm:sleeptalk",
+"tm:stealthrock",
+"tm:substitute",
+"tm:sunnyday",
+"tm:takedown",
+"tm:terablast",
+"tm:thief",
+"tm:trailblaze"
+	],
+	"abilities": [
+		"scrappy",
+"prankster",
+"h:vitalspirit"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "0",
+		"entries": [
+			{
+				"item": "minecraft:dirt",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

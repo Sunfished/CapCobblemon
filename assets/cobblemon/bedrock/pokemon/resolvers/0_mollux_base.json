@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:mollux",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:mollux",
+      "model": "cobblemon:mollux.geo",
+      "texture": "cobblemon:textures/pokemon/mollux/mollux.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/mollux/mollux_shiny.png"
+    }
+  ]
+}

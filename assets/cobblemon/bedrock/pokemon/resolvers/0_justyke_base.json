@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:justyke",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:justyke",
+      "model": "cobblemon:justyke.geo",
+      "texture": "cobblemon:textures/pokemon/justyke/justyke.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/justyke/justyke_shiny.png"
+    }
+  ]
+}

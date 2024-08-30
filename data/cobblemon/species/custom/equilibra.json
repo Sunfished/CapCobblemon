@@ -1,0 +1,129 @@
+{
+	"implemented": true,
+	"name": "equilibra",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.equilibra.desc1",
+		"cobblemon.species.equilibra.desc2"
+	],
+	"height": "8",
+	"weight": "513",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "steel",
+	"secondaryType": "ground",
+	
+	"baseStats": {
+	"hp": 102,
+	"attack": 50,
+	"defence": 96,
+	"special_attack": 133,
+	"special_defence": 118,
+	"speed": 60
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"mineral"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"1:doomdesire",
+"1:imprison",
+"1:magnetrise",
+"1:mudslap",
+"1:mudsport",
+"1:perishsong",
+"1:pound",
+"1:rapidspin",
+"12:gyroball",
+"15:mudshot",
+"16:guardsplit",
+"16:powersplit",
+"20:quash",
+"24:gravity",
+"24:mindreader",
+"28:flashcannon",
+"30:mirrorshot",
+"35:aurasphere",
+"40:memento",
+"46:healingwish",
+"52:destinybond",
+"57:earthquake",
+"58:earthpower",
+"64:painsplit",
+"tm:bodyslam",
+"tm:bulldoze",
+"tm:drillrun",
+"tm:endure",
+"tm:facade",
+"tm:gigaimpact",
+"tm:hardpress",
+"tm:heavyslam",
+"tm:helpinghand",
+"tm:hyperbeam",
+"tm:irondefense",
+"tm:ironhead",
+"tm:protect",
+"tm:psychup",
+"tm:rest",
+"tm:rockslide",
+"tm:rocktomb",
+"tm:sandstorm",
+"tm:sleeptalk",
+"tm:smartstrike",
+"tm:steelbeam",
+"tm:substitute",
+"tm:terablast",
+"tm:trickroom"
+	],
+	"abilities": [
+		"levitate",
+"bulletproof",
+"h:justified"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 2.5,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "1",
+		"entries": [
+			{
+				"item": "minecraft:clay",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": true
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

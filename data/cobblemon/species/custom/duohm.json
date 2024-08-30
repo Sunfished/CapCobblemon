@@ -1,0 +1,145 @@
+{
+	"implemented": true,
+	"name": "duohm",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.duohm.desc1",
+		"cobblemon.species.duohm.desc2"
+	],
+	"height": "192",
+	"weight": "11",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "electric",
+	"secondaryType": "dragon",
+	
+	"baseStats": {
+	"hp": 88,
+	"attack": 40,
+	"defence": 103,
+	"special_attack": 77,
+	"special_defence": 60,
+	"speed": 60
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"dragon",
+		"monster"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"1:bide",
+"1:doublehit",
+"1:electricterrain",
+"1:growl",
+"1:tackle",
+"1:thundershock",
+"1:twister",
+"12:charge",
+"16:sonicboom",
+"16:whirlwind",
+"20:dragonbreath",
+"24:dragonrage",
+"24:thunderwave",
+"28:dragontail",
+"35:discharge",
+"40:raindance",
+"46:slackoff",
+"52:lockon",
+"52:zapcannon",
+"58:thrash",
+"64:thunder",
+"tm:aerialace",
+"tm:blizzard",
+"tm:chargebeam",
+"tm:chillingwater",
+"tm:dracometeor",
+"tm:dragonclaw",
+"tm:dragonpulse",
+"tm:eerieimpulse",
+"tm:electroball",
+"tm:endure",
+"tm:facade",
+"tm:fireblast",
+"tm:firefang",
+"tm:flamethrower",
+"tm:hydropump",
+"tm:icebeam",
+"tm:icefang",
+"tm:icywind",
+"tm:lightscreen",
+"tm:mudslap",
+"tm:outrage",
+"tm:powergem",
+"tm:protect",
+"tm:rest",
+"tm:roar",
+"tm:sandstorm",
+"tm:sleeptalk",
+"tm:snowscape",
+"tm:substitute",
+"tm:sunnyday",
+"tm:surf",
+"tm:swift",
+"tm:takedown",
+"tm:terablast",
+"tm:thunderbolt",
+"tm:thunderfang",
+"tm:trickroom",
+"tm:voltswitch",
+"tm:waterfall",
+"tm:waterpulse",
+"tm:weatherball",
+"tm:wildcharge"
+	],
+	"abilities": [
+		"shielddust",
+"static",
+"h:damp"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "0",
+		"entries": [
+			{
+				"item": "minecraft:dirt",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

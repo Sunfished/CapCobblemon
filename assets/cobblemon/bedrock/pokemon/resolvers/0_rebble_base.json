@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:rebble",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:rebble",
+      "model": "cobblemon:rebble.geo",
+      "texture": "cobblemon:textures/pokemon/rebble/rebble.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/rebble/rebble_shiny.png"
+    }
+  ]
+}

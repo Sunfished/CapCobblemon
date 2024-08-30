@@ -1,0 +1,81 @@
+{
+	"implemented": true,
+	"name": "fawnifer",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.fawnifer.desc1",
+		"cobblemon.species.fawnifer.desc2"
+	],
+	"height": "7",
+	"weight": "69",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "grass",
+	
+	
+	"baseStats": {
+	"hp": 49,
+	"attack": 61,
+	"defence": 42,
+	"special_attack": 52,
+	"special_defence": 40,
+	"speed": 76
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"field"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"1:tackle"
+	],
+	"abilities": [
+		"overgrow",
+"h:lightningrod"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "1",
+		"entries": [
+			{
+				"item": "minecraft:stick",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

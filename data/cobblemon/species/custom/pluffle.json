@@ -1,0 +1,128 @@
+{
+	"implemented": true,
+	"name": "pluffle",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.pluffle.desc1",
+		"cobblemon.species.pluffle.desc2"
+	],
+	"height": "8",
+	"weight": "18",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "fairy",
+	
+	
+	"baseStats": {
+	"hp": 74,
+	"attack": 38,
+	"defence": 51,
+	"special_attack": 65,
+	"special_defence": 78,
+	"speed": 49
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"fairy",
+		"human_like"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"egg:beatup",
+"egg:quickguard",
+"egg:wideguard",
+"egg:wish",
+"1:featherdance",
+"1:scratch",
+"3:fairywind",
+"6:yawn",
+"9:charm",
+"10:wakeupslap",
+"12:drainingkiss",
+"15:encore",
+"18:scaryface",
+"21:partingshot",
+"24:playrough",
+"25:confide",
+"27:rest",
+"27:snore",
+"30:moonblast",
+"33:torment",
+"36:dreameater",
+"42:nightmare",
+"tm:bodyslam",
+"tm:dazzlinggleam",
+"tm:endure",
+"tm:energyball",
+"tm:facade",
+"tm:flashcannon",
+"tm:gigadrain",
+"tm:grassknot",
+"tm:helpinghand",
+"tm:metronome",
+"tm:mistyexplosion",
+"tm:mistyterrain",
+"tm:protect",
+"tm:psychic",
+"tm:sleeptalk",
+"tm:sludgebomb",
+"tm:snarl",
+"tm:substitute",
+"tm:sunnyday",
+"tm:takedown",
+"tm:taunt",
+"tm:terablast",
+"tm:uproar",
+"tm:vacuumwave"
+	],
+	"abilities": [
+		"naturalcure",
+"aromaveil",
+"h:friendguard"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "1",
+		"entries": [
+			{
+				"item": "cobblemon:chesto_berry",
+				"quantityRange": "1-1",
+				"percentage": 20
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

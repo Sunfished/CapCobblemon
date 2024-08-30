@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:ababo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ababo",
+      "model": "cobblemon:ababo.geo",
+      "texture": "cobblemon:textures/pokemon/ababo/ababo.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/ababo/ababo_shiny.png"
+    }
+  ]
+}

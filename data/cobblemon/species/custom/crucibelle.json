@@ -1,0 +1,140 @@
+{
+	"implemented": true,
+	"name": "crucibelle",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.crucibelle.desc1",
+		"cobblemon.species.crucibelle.desc2"
+	],
+	"height": "14",
+	"weight": "225",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "poison",
+	"secondaryType": "rock",
+	
+	"baseStats": {
+	"hp": 106,
+	"attack": 135,
+	"defence": 75,
+	"special_attack": 85,
+	"special_defence": 125,
+	"speed": 114
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"amorphous",
+		"mineral"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"egg:block",
+"egg:defensecurl",
+"egg:knockoff",
+"egg:rockpolish",
+"egg:rollout",
+"egg:woodhammer",
+"1:astonish",
+"1:coil",
+"1:endure",
+"1:protect",
+"1:withdraw",
+"4:rockthrow",
+"8:confuseray",
+"12:rockblast",
+"16:confusion",
+"20:torment",
+"24:smackdown",
+"25:reflect",
+"28:faketears",
+"32:psybeam",
+"36:toxicspikes",
+"40:acidarmor",
+"44:sludge",
+"48:hex",
+"52:rockslide",
+"56:toxic",
+"60:sludgewave",
+"64:gunkshot",
+"68:explosion",
+"tm:acidspray",
+"tm:drainingkiss",
+"tm:facade",
+"tm:gigaimpact",
+"tm:grassknot",
+"tm:gravity",
+"tm:helpinghand",
+"tm:hyperbeam",
+"tm:irondefense",
+"tm:ironhead",
+"tm:lightscreen",
+"tm:meteorbeam",
+"tm:metronome",
+"tm:poisonjab",
+"tm:powergem",
+"tm:psychic",
+"tm:rest",
+"tm:rocktomb",
+"tm:sandstorm",
+"tm:shadowball",
+"tm:skillswap",
+"tm:sleeptalk",
+"tm:sludgebomb",
+"tm:stealthrock",
+"tm:stoneedge",
+"tm:substitute",
+"tm:terablast",
+"tm:trick",
+"tm:uturn",
+"tm:venoshock",
+"tm:zenheadbutt"
+	],
+	"abilities": [
+		"magicguard"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "0",
+		"entries": [
+			{
+				"item": "minecraft:dirt",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

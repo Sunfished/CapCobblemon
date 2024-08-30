@@ -1,0 +1,49 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"kerfluffle.animation.ground_idle": {
+			"loop": true,
+			"animation_length": 7.125,
+			"bones": {
+				"tongue": {
+					"rotation": ["math.sin(query.anim_time * 120 - 80) * -5 - 3.0507", 0, 0]
+				},
+				"legl": {
+					"position": [0, "math.sin(query.anim_time * 120) * -0.2 -0.2", 0]
+				},
+				"legr": {
+					"position": [0, "math.sin(query.anim_time * 120) * -0.2 -0.2", 0]
+				},
+				"shoulderl": {
+					"rotation": [34.7918, "math.sin(query.anim_time * 120 - 80) * -5 - 3.0507", 38.7121]
+				},
+				"arml": {
+					"rotation": [0, 40, 0],
+					"scale": 1.01
+				},
+				"handl": {
+					"rotation": [0, 40, 0]
+				},
+				"shoulderr": {
+					"rotation": [34.79177, "math.sin(query.anim_time * 120 - 60) * 5 + 3.0507", -38.71214]
+				},
+				"arml2": {
+					"rotation": [0, -40, 0],
+					"scale": 1.01
+				},
+				"handl2": {
+					"rotation": [0, -30, 0]
+				},
+				"body": {
+					"position": [0, "math.sin(query.anim_time * 120) * 0.2 + 0.2", 0]
+				}
+			}
+		},
+		"kerfluffle.animation.ground_walk": {
+			"loop": true
+		},
+		"kerfluffle.animation.faint": {
+			"loop": true
+		}
+	}
+}

@@ -1,0 +1,130 @@
+{
+	"implemented": true,
+	"name": "syclar",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.syclar.desc1",
+		"cobblemon.species.syclar.desc2"
+	],
+	"height": "2",
+	"weight": "40",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "bug",
+	"secondaryType": "ice",
+	
+	"baseStats": {
+	"hp": 40,
+	"attack": 76,
+	"defence": 45,
+	"special_attack": 74,
+	"special_defence": 39,
+	"speed": 91
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"bug"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"egg:counter",
+"egg:doubleedge",
+"egg:fellstinger",
+"egg:pinmissile",
+"egg:stringshot",
+"egg:tailglow",
+"1:absorb",
+"1:icepunch",
+"1:leer",
+"5:furyattack",
+"5:leechlife",
+"10:furycutter",
+"15:iceshard",
+"20:icywind",
+"25:focusenergy",
+"31:avalanche",
+"34:hail",
+"35:slash",
+"40:xscissor",
+"45:iciclecrash",
+"50:bugbuzz",
+"55:sheercold",
+"tm:blizzard",
+"tm:bugbite",
+"tm:earthpower",
+"tm:endure",
+"tm:facade",
+"tm:falseswipe",
+"tm:fling",
+"tm:focuspunch",
+"tm:icebeam",
+"tm:icefang",
+"tm:icespinner",
+"tm:pounce",
+"tm:protect",
+"tm:raindance",
+"tm:rest",
+"tm:sleeptalk",
+"tm:snowscape",
+"tm:spikes",
+"tm:strugglebug",
+"tm:substitute",
+"tm:swift",
+"tm:swordsdance",
+"tm:taunt",
+"tm:terablast",
+"tm:trailblaze",
+"tm:uturn",
+"tm:waterpulse"
+	],
+	"abilities": [
+		"compoundeyes",
+"snowcloak",
+"h:icebody"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "0",
+		"entries": [
+			{
+				"item": "minecraft:dirt",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

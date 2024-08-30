@@ -1,0 +1,116 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.krilowatt.ground_idle": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": ["math.sin(query.anim_time * 120) * 6", 0, "math.cos(query.anim_time * 100) * 4"],
+					"position": [0, "math.sin(query.anim_time * 90) * 1 + 2", 0]
+				},
+				"antenna": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -20", 0, 0]
+				},
+				"bone4": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -10", 0, 0]
+				},
+				"antenna2": {
+					"rotation": ["math.sin(query.anim_time * 120 + 100) * -20", 0, 0]
+				},
+				"bone5": {
+					"rotation": ["math.sin(query.anim_time * 120 + 100) * -10", 0, 0]
+				},
+				"seg2": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -3", 0, "math.cos(query.anim_time * 100 + 60) * -2"]
+				},
+				"armr": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -12", 0, "math.cos(query.anim_time * 100 + 60) * -10"]
+				},
+				"arml": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -12", 0, "math.cos(query.anim_time * 100 + 60) * -10"]
+				},
+				"seg3": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -3", 0, "math.cos(query.anim_time * 100 + 60) * -2"]
+				},
+				"arm2r": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -12", 0, "math.cos(query.anim_time * 100 + 60) * -10"]
+				},
+				"arm2r2": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -12", 0, "math.cos(query.anim_time * 100 + 60) * -10"]
+				},
+				"seg4": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -3", 0, "math.cos(query.anim_time * 100 + 60) * -2"]
+				},
+				"arml2": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -12", 0, "math.cos(query.anim_time * 100 + 60) * -10"]
+				},
+				"arml3": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -12", 0, "math.cos(query.anim_time * 100 + 60) * -10"]
+				},
+				"bone2": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -3", 0, "math.cos(query.anim_time * 100 + 60) * -2"]
+				},
+				"bone3": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -3", 0, "math.cos(query.anim_time * 100 + 60) * -2"]
+				}
+			}
+		},
+		"animation.krilowatt.ground_walk": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": ["math.sin(query.anim_time * 120) * 6", 0, "math.cos(query.anim_time * 100) * 4"],
+					"position": [0, "math.sin(query.anim_time * 90) * 1 + 2", 0]
+				},
+				"antenna": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -20", 0, 0]
+				},
+				"bone4": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -10", 0, 0]
+				},
+				"antenna2": {
+					"rotation": ["math.sin(query.anim_time * 120 + 100) * -20", 0, 0]
+				},
+				"bone5": {
+					"rotation": ["math.sin(query.anim_time * 120 + 100) * -10", 0, 0]
+				},
+				"seg2": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -3", 0, "math.cos(query.anim_time * 100 + 60) * -2"]
+				},
+				"armr": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -12", 0, "math.cos(query.anim_time * 100 + 60) * -10"]
+				},
+				"arml": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -12", 0, "math.cos(query.anim_time * 100 + 60) * -10"]
+				},
+				"seg3": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -3", 0, "math.cos(query.anim_time * 100 + 60) * -2"]
+				},
+				"arm2r": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -12", 0, "math.cos(query.anim_time * 100 + 60) * -10"]
+				},
+				"arm2r2": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -12", 0, "math.cos(query.anim_time * 100 + 60) * -10"]
+				},
+				"seg4": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -3", 0, "math.cos(query.anim_time * 100 + 60) * -2"]
+				},
+				"arml2": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -12", 0, "math.cos(query.anim_time * 100 + 60) * -10"]
+				},
+				"arml3": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -12", 0, "math.cos(query.anim_time * 100 + 60) * -10"]
+				},
+				"bone2": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -3", 0, "math.cos(query.anim_time * 100 + 60) * -2"]
+				},
+				"bone3": {
+					"rotation": ["math.sin(query.anim_time * 120 + 60) * -3", 0, "math.cos(query.anim_time * 100 + 60) * -2"]
+				}
+			}
+		},
+		"animation.krilowatt.faint": {
+			"loop": true
+		}
+	}
+}

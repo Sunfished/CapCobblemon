@@ -1,0 +1,147 @@
+{
+	"implemented": true,
+	"name": "voodoom",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.voodoom.desc1",
+		"cobblemon.species.voodoom.desc2"
+	],
+	"height": "20",
+	"weight": "755",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "fighting",
+	"secondaryType": "dark",
+	
+	"baseStats": {
+	"hp": 90,
+	"attack": 85,
+	"defence": 80,
+	"special_attack": 105,
+	"special_defence": 80,
+	"speed": 110
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"human_like",
+		"field"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"1:astonish",
+"1:copycat",
+"1:followme",
+"1:nightslash",
+"1:pinmissile",
+"1:revenge",
+"1:throatchop",
+"1:wrap",
+"12:spite",
+"16:echoedvoice",
+"20:charge",
+"24:tearfullook",
+"28:hex",
+"30:feintattack",
+"35:grudge",
+"35:torment",
+"40:aurasphere",
+"46:painsplit",
+"50:substitute",
+"52:acupressure",
+"55:beatup",
+"58:foulplay",
+"64:closecombat",
+"tm:batonpass",
+"tm:burningjealousy",
+"tm:coaching",
+"tm:darkpulse",
+"tm:drainpunch",
+"tm:earthquake",
+"tm:endure",
+"tm:facade",
+"tm:flashcannon",
+"tm:fling",
+"tm:focusblast",
+"tm:focuspunch",
+"tm:gigaimpact",
+"tm:hypervoice",
+"tm:icepunch",
+"tm:imprison",
+"tm:knockoff",
+"tm:lashout",
+"tm:lowkick",
+"tm:lowsweep",
+"tm:metronome",
+"tm:mudslap",
+"tm:nastyplot",
+"tm:protect",
+"tm:psychic",
+"tm:rest",
+"tm:rockslide",
+"tm:sleeptalk",
+"tm:smartstrike",
+"tm:snarl",
+"tm:stoneedge",
+"tm:sunnyday",
+"tm:taunt",
+"tm:temperflare",
+"tm:terablast",
+"tm:thief",
+"tm:thunderbolt",
+"tm:thunderpunch",
+"tm:thunderwave",
+"tm:uproar",
+"tm:vacuumwave",
+"tm:voltswitch"
+	],
+	"abilities": [
+		"voltabsorb",
+"lightningrod",
+"h:cursedbody"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "0",
+		"entries": [
+			{
+				"item": "minecraft:dirt",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": false
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

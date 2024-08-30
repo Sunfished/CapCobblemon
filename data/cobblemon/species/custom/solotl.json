@@ -1,0 +1,83 @@
+{
+	"implemented": true,
+	"name": "solotl",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.solotl.desc1",
+		"cobblemon.species.solotl.desc2"
+	],
+	"height": "6",
+	"weight": "118",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "fire",
+	"secondaryType": "dragon",
+	
+	"baseStats": {
+	"hp": 68,
+	"attack": 48,
+	"defence": 34,
+	"special_attack": 72,
+	"special_defence": 24,
+	"speed": 84
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"dragon",
+		"fairy"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"1:tackle"
+	],
+	"abilities": [
+		"regenerator",
+"vitalspirit",
+"h:magician"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "1",
+		"entries": [
+			{
+				"item": "cobblemon:stardust",
+				"quantityRange": "1-1",
+				"percentage": 10
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": true
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}

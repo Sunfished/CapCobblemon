@@ -1,0 +1,148 @@
+{
+	"implemented": true,
+	"name": "tomohawk",
+	"labels": ["custom"],
+	"pokedex": [
+		"cobblemon.species.tomohawk.desc1",
+		"cobblemon.species.tomohawk.desc2"
+	],
+	"height": "13",
+	"weight": "372",
+	
+	
+	"forms": [
+		{ "name": "normal" }
+	],
+	"shoulderMountable": "false",
+	
+	
+	"primaryType": "flying",
+	"secondaryType": "fighting",
+	
+	"baseStats": {
+	"hp": 105,
+	"attack": 60,
+	"defence": 90,
+	"special_attack": 115,
+	"special_defence": 80,
+	"speed": 85
+	},
+	
+	"catchRate": 1,
+	"maleRatio": 0.5,
+	"baseExperienceYield": 1,
+	"experienceGroup": "fluctuating",
+	"eggCycles": 5355,
+	"eggGroups": [
+			"field",
+		"flying"
+	],
+	"baseFriendship": 70,
+	"evYield": {
+		
+	},
+	
+	"moves": [
+		"1:aurasphere",
+"1:bulkup",
+"1:focusenergy",
+"1:harden",
+"1:poweruppunch",
+"1:rest",
+"1:retaliate",
+"1:roar",
+"1:rocksmash",
+"1:scratch",
+"1:taunt",
+"1:workup",
+"9:furyswipes",
+"12:aerialace",
+"15:morningsun",
+"15:sunnyday",
+"18:whirlwind",
+"21:raindance",
+"26:roost",
+"31:airslash",
+"36:brickbreak",
+"36:submission",
+"41:hypervoice",
+"42:heatwave",
+"46:healingwish",
+"49:skydrop",
+"51:superpower",
+"56:hurricane",
+"61:skyattack",
+"tm:acrobatics",
+"tm:aircutter",
+"tm:batonpass",
+"tm:bodypress",
+"tm:bodyslam",
+"tm:bravebird",
+"tm:bulldoze",
+"tm:closecombat",
+"tm:coaching",
+"tm:confuseray",
+"tm:dualwingbeat",
+"tm:earthquake",
+"tm:endure",
+"tm:facade",
+"tm:falseswipe",
+"tm:fling",
+"tm:fly",
+"tm:focusblast",
+"tm:gigaimpact",
+"tm:grassknot",
+"tm:haze",
+"tm:helpinghand",
+"tm:hyperbeam",
+"tm:protect",
+"tm:reversal",
+"tm:rockslide",
+"tm:rocktomb",
+"tm:sleeptalk",
+"tm:solarbeam",
+"tm:stealthrock",
+"tm:stoneedge",
+"tm:substitute",
+"tm:takedown",
+"tm:terablast",
+"tm:thief",
+"tm:throatchop",
+"tm:trailblaze"
+	],
+	"abilities": [
+		"intimidate",
+"prankster",
+"h:justified"
+	],
+	
+	"baseScale": 1.0,
+	"hitbox": {
+		"width": 0.8,
+		"height": 0.8,
+		"fixed": false
+	},
+	"drops": {
+		"amount": "0",
+		"entries": [
+			{
+				"item": "minecraft:dirt",
+				"quantityRange": "1-1",
+				"percentage": 100
+			}
+		]
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": false,
+			"fly": {
+				"canFly": true
+			},         
+			"swim": {
+				"swimSpeed": 0.2,
+				"canSwimInWater": true,
+				"canBreatheUnderwater": false
+			}
+		}
+	}
+}
